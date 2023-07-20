@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;80900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* nav style start */
+nav{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 30px;
+}
+.nav-links>ul{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+}
+.logo h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.g{
+    color: #FF42A5;
+}
+.social-link{
+    display: flex;
+    align-items: center;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.social-link>p{
+    padding-right: 25px;
+}
+/* nav style end */
